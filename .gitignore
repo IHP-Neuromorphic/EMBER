@@ -1,0 +1,36 @@
+
+# Temporary Files Extensions
+*~
+*.swp
+*.swo
+*.jou
+*.x
+*.so
+*.log
+*.out
+*.tar.gz
+*.tar.xz
+*.pth
+*.out
+*.o
+*.npy
+*.txt
+*.spyproject
+*ninja*
+!*CMakeLists.txt
+
+# Temporary Directories
+*_
+*temp
+*data
+*old
+*workspace
+build/
+outdir/
+exports/
+
+# VScode Files
+.vscode
+
+# PyCharm Files
+.idea
