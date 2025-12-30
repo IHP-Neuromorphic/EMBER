@@ -18,6 +18,7 @@
 *.spyproject
 *ninja*
 !*CMakeLists.txt
+*.cmake
 
 # Temporary Directories
 *_
@@ -25,9 +26,11 @@
 *data
 *old
 *workspace
-build/
-outdir/
+cmake-build*/
+build*/
+out*/
 exports/
+.DS_Store
 
 # VScode Files
 .vscode

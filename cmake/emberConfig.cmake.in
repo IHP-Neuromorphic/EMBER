@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+# Load exported targets from the build tree
+include("${CMAKE_CURRENT_LIST_DIR}/emberTargets.cmake")
+
+# Optional: convenience variables for consumers
+set(EMBER_FOUND TRUE)
